@@ -1,6 +1,6 @@
 # Praktikum3
 Repositori ini dibuat dengan tujuan memenuhi tugas yang diberikan.
-Berikut adalah penjelasan pengkodean yang ada dalam repositori ini.
+Berikut adalah penjelasan kode yang ada dalam repositori ini.
 
 # Daftar Isi
 
