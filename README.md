@@ -23,7 +23,7 @@ print('Z')
 ```
 ```end=' '``` berfungsi untuk mengganti akhiran ```print()```, yang tadinya membuat baris baru setiap kali digunakan menjadi spasi setiap kali digunakan.
 
-Hasilnya seperti berikut:
+Hasil outputnya seperti berikut:
 
 ![end](<gambar/end.png>)
 
@@ -98,7 +98,7 @@ print("variable b =", b)
 ```
 Python akan menampilkan nilai variable ```a``` & ```b``` yang baru saja dimasukuan oleh Pengguna.
 
-![tampi](<gambar/in2.png>)
+![gab](<gambar/in2.png>)
 
 3. Di sini
 ```ruby
@@ -122,8 +122,8 @@ print("hasil pembagian {}/{}={}".format(a, b, a/b if a != 0 else "undefined"))
 ```
 Python akan melakukan Aritmatika Penjumlahan dan Pembagian yang kemudian akan ditampilkan ke Pengguna.
 
-![rari](gambar/ot22.png)
-![uari](gambar/ot23.png)
+![ot](gambar/ot22.png)
+![ott](gambar/ot23.png)
 ## [Mencari Bilangan Terbesar dari 3 Bilangan](<program/Bilangan terbesar dari 3 bilangan.py>) <a name="B3B"></a>
 
 Flowchart untuk Kode ini:
@@ -135,7 +135,7 @@ a = int(input("bilangan pertama: "))
 b = int(input("bilangan kedua: "))
 c = int(input("bilangan ketiga: "))
 ```
-Pengguna akan diminta untuk ```input()``` bilangan, kemudian ```input()``` itu akan dikonversikan menjadi ```int()``` integer.
+Pengguna akan diminta untuk masukan ```input()``` bilangan, kemudian ```input()``` itu akan dikonversikan menjadi ```int()``` integer.
 
 2. Mendefinisikan Fungsi
 ```ruby
@@ -145,11 +145,11 @@ def terbesar(a, b, c):
 3. Pengecekan
 ```ruby
     if a == b == c:
-        print(f"Semuanya sama {a}")
+        print(f"Semua bilangan bernilai sama {a}")
 ```
-Apakah semua bilangan sama? Jika iya, maka ``` Semuanya sama ``` akan ditampilkan. 
+Apabila semua bilangan sama, maka ``` Semua bilangan bernilai sama ``` akan ditampilkan. 
 
-Output:
+Output akan seperti ini:
 
 ![alt text](gambar/io32.png)
 
@@ -157,13 +157,13 @@ Output:
 ```ruby
     else:
         terbesar = max(a, b, c)
-        print(f"bilangan terbesar adalah: {terbesar}")
+        print(f"bilangan yang terbesar adalah: {terbesar}")
 ```
-Pengecekan akan berlanjut ke tahap ke-2 jika semua bilangan berbeda.
+Pengecekan akan berlanjut ke tahap ke-2 jika terdapat bilangan berbeda.
 
-Output:
+Outputnya akan seperti ini:
 
-![alt text](gambar/io3.png)
+![p1](gambar/io3.png)
 
 5. Memanggil Fungsi
 ```ruby
@@ -208,6 +208,7 @@ n -= 1
 ```
 ini terus terjadi dan kembali ke poin 3 apabila n masih lebih besar dari 0
 
-7. Output.
+7. Output
 sebagai contoh maka hasilnya seperti berikut
+
 ![alt text](gambar/ipo4.png)
