@@ -186,7 +186,7 @@ bilangan_maksimal = float('-inf')
 ```ruby
 n = int(input("Masukkan jumlah bilangan: "))
 ```
-Di bagian Python akan meminta jumlah bilangan atau iterasi yang akan dimasukan oleh pengguna
+Di bagian ini Python akan meminta jumlah n bilangan atau iterasi yang akan dimasukan oleh pengguna
 
 3. perulangan
 ```ruby
