@@ -1,4 +1,3 @@
-
 # Latihan 1
 
 #penggunaan end
