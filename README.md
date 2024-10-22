@@ -9,7 +9,7 @@ Berikut adalah penjelasan pengkodean yang ada dalam repositori ini.
 3. [Bilangan terbesar dari 3 Bilangan](#B3B)
 4. [Bilangan terbesar dari N Bilangan](#BNB)
 
-## [Latihan 1]
+## [Latihan 1](<program/Latihan 1.py>) <a name="L1"></a>
 
 1. Penggunaan ```end```
 ```ruby
@@ -25,7 +25,7 @@ print('Z')
 
 Hasilnya seperti berikut:
 
-![end](<gambar/yang pertama.png>)
+![end](<gambar/end.png>)
 
 2. Penggunaan ```Separator```
 ```ruby
@@ -40,7 +40,7 @@ print(w,x,y,z,sep='-----')
 
 Hasilnya seperti berikut:
 
-![separator](gambar/Separato.png)
+![separator](gambar/separator.png)
 
 3. Penghitungan Kuadrat
 ```ruby
@@ -60,7 +60,7 @@ fungsi kode ini untuk menkuadratkan bilangan.
 
 Hasilnya seperti berikut:
 
-![kuadrat](gambar/Kuadrat.png)
+![kuadrat](gambar/kuadrat.png)
 
 4. String Format
 ```ruby
@@ -80,7 +80,7 @@ print('{0:>3} {1:>16}'.format(10, 10**10))
 
 Hasilnya seperti berikut:
 
-![format](<gambar/String Format.png>)
+![format](<gambar/kan.png>)
 
 ## [Latihan 2](<program/Latihan 2.py>) <a name="L2"></a>
 
@@ -98,7 +98,7 @@ print("variable b =", b)
 ```
 Python akan menampilkan nilai variable ```a``` & ```b``` yang baru saja dimasukuan oleh Pengguna.
 
-![tampi](<gambar/print var a.png>)
+![tampi](<gambar/in2.png>)
 
 3. Di sini
 ```ruby
@@ -108,7 +108,7 @@ Python akan menggabungkan 2 variable dan menampilkannya ke pengguna.
 
 <sup><sub>ini bukanlah penjumlahan<sub><sup>
 
-![fusio](gambar/penggabung.png)
+![fusio](gambar/ot2.png)
 
 4. Lalu 
 ```ruby
@@ -124,12 +124,12 @@ print("hasil pembagian {}/{}={}".format(a, b, a/b if a != 0 else "undefined"))
 ```
 Python akan melakukan Aritmatika Penjumlahan dan Pembagian yang kemudian akan ditampilkan ke Pengguna.
 
-![ari](gambar/terakhiran.png)
-
-## [Mencari yang Terbesar dari 3 Bilangan](<program/Terbesar dari 3 Bilangan.py>) <a name="3B"></a>
+![ari](gambar/ot22.png)
+![ari](gambar/ot23.png)
+## [Mencari Bilangan Terbesar dari 3 Bilangan](<program/Bilangan terbesar dari 3 bilangan.py>) <a name="B3B"></a>
 
 Flowchart untuk Kode ini:
-![Flowchart 3](gambar/BN.drawio.png)
+![Flowchart 3](gambar/bilA.png)
 
 1. Menginputkan Bilangan 
 ```ruby
@@ -153,9 +153,9 @@ Apakah semua bilangan sama? Jika iya, maka ``` Semuanya sama ``` akan ditampilka
 
 Output:
 
-![alt text](gambar/Sama.png)
+![alt text](gambar/io32.png)
 
-4. Pengecekan ke 2
+4. Pengecekan ke-2
 ```ruby
     else:
         terbesar = max(a, b, c)
@@ -165,7 +165,7 @@ Pengecekan akan berlanjut ke tahap ke-2 jika semua bilangan berbeda.
 
 Output:
 
-![alt text](gambar/beda.png)
+![alt text](gambar/io3.png)
 
 5. Memanggil Fungsi
 ```ruby
@@ -173,44 +173,43 @@ terbesar(a, b, c)
 ```
 Gunanya adalah untuk mengeksekusi fungsi tersebut.
 
-## [Mencari yang Terbesar dari N Bilangan](<program/Terbesar dari N Bilangan.py>) <a name="NB"></a>
+## [Mencari Bilangan Terbesar dari N Bilangan](<program/Bilangan terbesar dari N bilangan.py>) <a name="BNB"></a>
 
 Flowchart untuk Kode ini:
-![Flowchart N](gambar/BilaN.drawio.png)
+![Flowchart N](gambar/bilN.png)
 
-1. Inisialisasi Variabel
+1. Inisialisasi variabel maksimum
 ```ruby
-terbesar = None
-``` 
-Di awal-awal, variable ``` terbesar ``` akan di definisikan dengan nilai None.
+bilangan_maksimal = float('-inf')
+```
+ untuk mencari bilangan terbesar, bilangan maksimum wajib dimulai dari sama dengan tak hingga 
 
-2. Memulai Perulangan
+2. input jumlah bilangan
 ```ruby
-while True:
-    n = int(input("Masukan Bilangan mu: "))
-``` 
-Bagian ini akan terus berulang, berulang dan berulang.
+n = int(input("Masukkan jumlah bilangan: "))
+```
+Di bagian Python akan meminta jumlah bilangan atau iterasi yang akan dimasukan oleh pengguna
 
-3. Pengecekan
+3. perulangan
 ```ruby
-    if n == 0:
-        break
-``` 
-Setelah Pengguna melakukan ``` input ``` akan dilakukan pengecekan, apakah bilangan itu adalah 0? Jika benar, maka perulangan akan dihentikan.
+while n > 0:
+    bilangan = int(input("Masukkan bilangan: "))
+```
+Python akan terus mengulang permintaan input bilangan apabila n masih lebih besar dari 0
 
-4. Pemeriksaan
+4. pengecekan
 ```ruby
-    if terbesar is None or n > terbesar:
-        terbesar = n
-``` 
-Jika bilangan tersebut bukan 0, akan dilakukan perbandingan antara ``` input ``` dengan nilai yang ada di variable ``` terbesar ```. Dan jika ``` input ``` bernilai lebih besar dari variable ``` terbesar ``` maka nilai ``` terbesar ``` akan diperbaruii.
+if bilangan > bilangan_maksimal:
+        bilangan_maksimal = bilangan
+```
+Python akan cek apakah bilangan lebih besar dari yang maksimal saat ini, jika itu terjadi maka python akan mengganti bilangan maksimal dengan bilangan tersebut
 
-5. Output
+5. pengurangan iterasi
 ```ruby
-print("Bilangan Terbesar adalah:", terbesar)
-``` 
-Ini untuk mencetak hasil dari perbandingan, dengan mengambil nilai variable ``` terbesar ```.
+n -= 1
+```
+ini terus terjadi dan kembali ke poin 3 apabila n masih lebih besar dari 0
 
-Hasilnya:
-
-![alt text](gambar/hasilNNN.png)
+7. Output.
+sebagai contoh maka hasilnya seperti berikut
+![alt text](gambar/ipo4.png)
