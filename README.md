@@ -1,2 +1,2 @@
-# Praktikum 1
+# Praktikum 3
 ## Latihan 1
