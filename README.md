@@ -104,11 +104,9 @@ Python akan menampilkan nilai variable ```a``` & ```b``` yang baru saja dimasuku
 ```ruby
 print("hasil penggabungan variable {}&{}={}".format(a, b, a+b)) 
 ```
-Python akan menggabungkan 2 variable dan menampilkannya ke pengguna.
+Python akan menggabungkan 2 variable dan menampilkannya ke pengguna dan ini bukanlah penjumlahan.
 
-<sup><sub>ini bukanlah penjumlahan<sub><sup>
-
-![fusio](gambar/ot2.png)
+![quaso](gambar/ot21.png)
 
 4. Lalu 
 ```ruby
@@ -124,8 +122,8 @@ print("hasil pembagian {}/{}={}".format(a, b, a/b if a != 0 else "undefined"))
 ```
 Python akan melakukan Aritmatika Penjumlahan dan Pembagian yang kemudian akan ditampilkan ke Pengguna.
 
-![ari](gambar/ot22.png)
-![ari](gambar/ot23.png)
+![rari](gambar/ot22.png)
+![uari](gambar/ot23.png)
 ## [Mencari Bilangan Terbesar dari 3 Bilangan](<program/Bilangan terbesar dari 3 bilangan.py>) <a name="B3B"></a>
 
 Flowchart untuk Kode ini:
